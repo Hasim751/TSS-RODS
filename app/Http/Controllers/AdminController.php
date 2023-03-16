@@ -67,8 +67,8 @@ $skill_matched = false;
         if($skill_matched) {
            
  
-$sid    = "AC0dd9f508563207b82ee3eed7407f8ddd"; 
-$token  = "6209f33b69faaef566344290e60f2359"; 
+$sid    = "SID HERE"; 
+$token  = "TOKEN HERE"; 
 $twilio = new Client($sid, $token); 
  $msg_body = "We have found a job that matches the skills (".$skills.") of ".$firstName.". If you're interested, please reply 'YES' and we will send you more details. Thank you!";
 
